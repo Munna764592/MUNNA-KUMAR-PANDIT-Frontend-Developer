@@ -1,3 +1,25 @@
+
+Some Description for the installation of the app!
+#I have not uploaded node modules files as it can be install anywhere and remaining files can be seen from pakage.json file.
+#I uploaded separate PHP(apidata) file which fetch data from api, before installation of the app keep the file in the server host and run the server after that you get data.
+#Remaining react file must be replaced before using the app which i uploaded here.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
