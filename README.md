@@ -19,6 +19,8 @@ Some Description for the installation of the app!
 
 #I uploaded separate PHP(apidata) file which fetch data from api, before installation of the app keep the file in the server host and run the server then after you get data.
 
+PR DES. LINK - https://drive.google.com/file/d/1s_Hu31lpgWszmiDgZRuhOsBAWSD-cRcC/view?usp=share_link
+
 
 
 
