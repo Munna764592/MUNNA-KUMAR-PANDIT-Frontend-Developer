@@ -128,14 +128,18 @@ export default function Home() {
                 {openModel && <div className='pop_up_cards_preview'>
                     <div className='preview_cards'>
                         <i className="fas fa-1x fa-times" onClick={() => { setOpenModel(false) }}></i>
-                        <img src={modeldata.flickr_images} alt="image" />
-                        <h3>{modeldata.rocket_name}</h3>
-                        <p>
-                            {modeldata.description}
-                        </p>
-                        <div><span className='descri'>COUNTRY:</span> {modeldata.country}</div>
-                        <span className='margin_e'><span className='descri'>STAGES: </span>{modeldata.stages}</span>
-                        <span><span className='descri'>WIKIPEDIA: </span><a href={modeldata.wikipedia} target='_blank'>{modeldata.rocket_name}</a></span>
+                        <div style={{ display: 'flex', alignItems: 'center' }}>
+                            <img src={modeldata.flickr_images} alt="image" />
+                            <div>
+                                <h3>{modeldata.rocket_name}</h3>
+                                <p>
+                                    {modeldata.description}
+                                </p>
+                                <div><span className='descri'>COUNTRY:</span> {modeldata.country}</div>
+                                <span className='margin_e'><span className='descri'>STAGES: </span>{modeldata.stages}</span>
+                                <span><span className='descri'>WIKIPEDIA: </span><a href={modeldata.wikipedia} target='_blank'>{modeldata.rocket_name}</a></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 }
