@@ -9,7 +9,7 @@ Some Description for the installation of the app!
   3. npm i react-paginate.
   4. npm i react-router-dom. 
  
-#Replace App.css and App.js file from my github inside src folder of react app.
+#Replace App.css, mediquery.css and App.js file from my github inside src folder of react app.
 
 #Replace index.html and favicon.ico into public folder of react app.
 
