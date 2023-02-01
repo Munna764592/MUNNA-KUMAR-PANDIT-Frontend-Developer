@@ -127,14 +127,16 @@ export default function Ships() {
                 {openModel && <div className='pop_up_cards_preview'>
                     <div className='preview_cards'>
                         <i className="fas fa-1x fa-times" onClick={() => { setOpenModel(false) }}></i>
-                        <img src={modeldata.image} alt="image" />
-                        <h3>{modeldata.ship_name}</h3>
-                        {/* <p>
-                            {modeldata.description}
-                        </p> */}
-                        <div><span className='descri'>HOME PORT:</span> {modeldata.home_port}</div>
-                        <span className='margin_e'><span className='descri'>SHIP TYPE: </span>{modeldata.ship_type}</span>
-                        <span><span className='descri'>DETAILS: </span><a href={modeldata.url} target='_blank'>{modeldata.ship_name}</a></span>
+                        <div style={{ display: 'flex', alignItems: 'center' }}>
+                            <img src={modeldata.image} alt="image" />
+                            <div>
+                                <h3>{modeldata.ship_name}</h3>
+
+                                <div><span className='descri'>HOME PORT:</span> {modeldata.home_port}</div>
+                                <span className='margin_e'><span className='descri'>SHIP TYPE: </span>{modeldata.ship_type}</span>
+                                <span><span className='descri'>DETAILS: </span><a href={modeldata.url} target='_blank'>{modeldata.ship_name}</a></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 }
