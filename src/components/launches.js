@@ -131,14 +131,18 @@ export default function Launches() {
                 {openModel && <div className='pop_up_cards_preview'>
                     <div className='preview_cards'>
                         <i className="fas fa-1x fa-times" onClick={() => { setOpenModel(false) }}></i>
-                        <img src={modeldata.links.mission_patch} alt="image" />
-                        <h3>{modeldata.mission_name}</h3>
-                        <p>
-                            {modeldata.details}
-                        </p>
-                        <div><span className='descri'>LAUNCH YEAR:</span> {modeldata.launch_year}</div>
-                        <span className='margin_e'><span className='descri'>ROCKET: </span>{modeldata.rocket.rocket_name}</span>
-                        <span><span className='descri'>WIKIPEDIA: </span><a href={modeldata.links.wikipedia} target='_blank'>{modeldata.mission_name}</a></span>
+                        <div style={{ display: 'flex', alignItems: 'center' }}>
+                            <img src={modeldata.links.mission_patch} alt="image" />
+                            <div>
+                                <h3>{modeldata.mission_name}</h3>
+                                <p>
+                                    {modeldata.details}
+                                </p>
+                                <div><span className='descri'>LAUNCH YEAR:</span> {modeldata.launch_year}</div>
+                                <span className='margin_e'><span className='descri'>ROCKET: </span>{modeldata.rocket.rocket_name}</span>
+                                <span><span className='descri'>WIKIPEDIA: </span><a href={modeldata.links.wikipedia} target='_blank'>{modeldata.mission_name}</a></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 }
