@@ -17,7 +17,7 @@ Some Description for the installation of the app!
 
 ----Then after----
 
-#I uploaded separate PHP(apidata) file which fetch data from api, before installation of the app keep the file in the server host and run the server after that you get data.
+#I uploaded separate PHP(apidata) file which fetch data from api, before installation of the app keep the file in the server host and run the server then after you get data.
 
 
 
