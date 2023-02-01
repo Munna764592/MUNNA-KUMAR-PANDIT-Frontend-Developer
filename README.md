@@ -2,15 +2,21 @@
 Some Description for the installation of the app!
 
 #First install the react app using - npx i create-react-app folder_name.(through terminal)
+
 #After installation of react app install the following libraries:-
   1. npm install react-axios.
   2. npm i swiper.
   3. npm i react-paginate.
   4. npm i react-router-dom. 
+ 
 #Replace App.css and App.js file from my github inside src folder of react app.
+
 #Replace index.html and favicon.ico into public folder of react app.
+
 #Also keep the components and image folder inside src folder.
+
 ----Then after----
+
 #I uploaded separate PHP(apidata) file which fetch data from api, before installation of the app keep the file in the server host and run the server after that you get data.
 
 
